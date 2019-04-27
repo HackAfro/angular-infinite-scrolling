@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class FruitsService {
+export class ProductsService {
   constructor(private http: HttpClient) {}
 
   getAll(page, limit = 20) {
